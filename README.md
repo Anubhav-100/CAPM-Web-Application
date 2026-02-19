@@ -1,10 +1,8 @@
-📊 **CAPM Web Application**
-
+## 📊 **CAPM Web Application**
 A professional financial analytics web application built using Streamlit that calculates Expected Stock Returns using the Capital Asset Pricing Model (CAPM) and visualizes stock performance against the S&P 500 benchmark.
 This project demonstrates practical implementation of financial modeling, regression-based beta estimation, and interactive data visualization.
 
 🚀 **Overview**
-
 The CAPM Web Application allows users to:
 - Select multiple stocks
 - Define a historical time range
