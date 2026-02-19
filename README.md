@@ -1,90 +1,35 @@
 📊 **CAPM Web Application**
 
 A professional financial analytics web application built using Streamlit that calculates Expected Stock Returns using the Capital Asset Pricing Model (CAPM) and visualizes stock performance against the S&P 500 benchmark.
-
 This project demonstrates practical implementation of financial modeling, regression-based beta estimation, and interactive data visualization.
 
-🚀 Overview
+🚀 **Overview**
 
 The CAPM Web Application allows users to:
-
-Select multiple stocks
-
-Define a historical time range
-
-Compare stock performance with the market (S&P 500)
-
-Calculate Beta using linear regression
-
-Estimate expected returns using the CAPM model
-
-Visualize price trends and normalized performance interactively
+- Select multiple stocks
+- Define a historical time range
+- Compare stock performance with the market (S&P 500)
+- Calculate Beta using linear regression
+- Estimate expected returns using the CAPM model
+- Visualize price trends and normalized performance interactively
 
 This project is ideal for learning:
+- Financial Modeling
+- Quantitative Finance Basics
+- Risk & Return Analysis
+- Data Visualization
+- Streamlit Dashboard Development
 
-Financial Modeling
-
-Quantitative Finance Basics
-
-Risk & Return Analysis
-
-Data Visualization
-
-Streamlit Dashboard Development
-
-🧠 Financial Model: CAPM
+🧠 **Financial Model: CAPM**
 
 The application implements the Capital Asset Pricing Model (CAPM):
-
-𝐸
-(
-𝑅
-𝑖
-)
-=
-𝑅
-𝑓
-+
-𝛽
-𝑖
-(
-𝑅
-𝑚
-−
-𝑅
-𝑓
-)
-E(R
-i
-	​
-
-)=R
-f
-	​
-
-+β
-i
-	​
-
-(R
-m
-	​
-
-−R
-f
-	​
-
-)
+                        𝐸(𝑅𝑖)=𝑅𝑓+𝛽𝑖(𝑅𝑚−𝑅𝑓)
 
 Where:
-
-E(Ri) → Expected return of stock
-
-Rf → Risk-free rate (currently assumed 0)
-
-βi (Beta) → Sensitivity of stock to market movements
-
-Rm → Expected market return (Annualized S&P 500 return)
+- E(Ri) → Expected return of stock
+- Rf → Risk-free rate (currently assumed 0)
+- βi (Beta) → Sensitivity of stock to market movements
+- Rm → Expected market return (Annualized S&P 500 return)
 
 ✨ Key Features
 📌 Data Collection
